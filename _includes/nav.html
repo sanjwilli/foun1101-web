@@ -1,0 +1,72 @@
+<!-- Navigation -->
+<nav class="nav-wrap">
+  <ul class="navigation">
+    <li><a href="{{ site.baseirl }}/">Home</a></li>
+    <li><a href="{{ site.baseirl }}/about-us">About Us</a></li>
+    <li><a href="{{ site.baseirl }}/Political">Political</a></li>
+    <li><a href="{{ site.baseirl }}/Economical">Economical</a></li>
+    <li><a href="{{ site.baseirl }}/Social">Social</a></li>
+    <li><a href="{{ site.baseirl }}/Cultural">Cultural</a></li>
+  </ul>
+  <!-- Mobile Navigation -->
+  <div class="nav-toggle-open-wrapper {% if page.url == '/' %}nav-dark{% endif %}">
+    <i class="fas fa-bars"></i>
+  </div>
+  <div class="nav-toggle-body-overlay"></div>
+  <div class="toggled-nav-wrapper">
+    <div class="nav-toggle-close-wrapper">
+      <i class="fas fa-times"></i>
+    </div>
+    <div class="internal-nav-links-wrapper">
+      <a href="{{ site.baseurl }}/" class="internal-link-wrapper">
+        <div class="internal-link-icon internal-link-icon-home"><i class="fas fa-home"></i></div>
+        <div class="link-titles-wrapper">
+          <h5>Home</h5>
+          <small>Introduction</small>
+        </div>
+
+      </a>
+      <a href="{{ site.baseurl }}/about-us" class="internal-link-wrapper">
+        <div class="internal-link-icon internal-link-icon-about-us"><i class="fas fa-info"></i></div>
+        <div class="link-titles-wrapper">
+          <h5>About Us</h5>
+          <small>Who are the Creators</small>
+        </div>
+
+      </a>
+      <a href="{{ site.baseurl }}/political" class="internal-link-wrapper">
+        <div class="internal-link-icon internal-link-icon-political"><i class="fas fa-fist-raised"></i></div>
+        <div class="link-titles-wrapper">
+          <h5>Political</h5>
+          <small>Link Meta</small>
+        </div>
+
+      </a>
+      <a href="{{ site.baseurl }}/economical" class="internal-link-wrapper">
+        <div class="internal-link-icon internal-link-icon-economical"><i class="fas fa-users"></i></div>
+        <div class="link-titles-wrapper">
+          <h5>Economical</h5>
+          <small>Link Meta</small>
+        </div>
+
+      </a>
+      <a href="{{ site.baseurl }}/social" class="internal-link-wrapper">
+        <div class="internal-link-icon internal-link-icon-social"><i class="fas fa-globe-africa"></i></div>
+        <div class="link-titles-wrapper">
+          <h5>Social</h5>
+          <small>Link Meta</small>
+        </div>
+
+      </a>
+      <a href="{{ site.baseurl }}/cultral" class="internal-link-wrapper">
+        <div class="internal-link-icon internal-link-icon-cultural"><i class="fas fa-palette"></i></div>
+        <div class="link-titles-wrapper">
+          <h5>Cultural</h5>
+          <small>Link Meta</small>
+        </div>
+
+      </a>
+    </div>
+  </div>
+</nav>
+<!-- End Navigation -->
