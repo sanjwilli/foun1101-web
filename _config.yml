@@ -33,7 +33,7 @@ linkedin_path: https://www.linkedin.com/in/sanjay-williams-a01613150/
 # Build settings
 peramlink: pretty
 markdown: kramdown
-encoding: utf-8
+#encoding: utf-8
 #theme: minima
 plugins:
   - jekyll-feed
