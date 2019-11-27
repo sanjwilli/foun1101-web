@@ -23,7 +23,7 @@ email: williamsanjay77@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Group description
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sanjwilli.github.io/foun1101-web" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_path: https://github.com/sanjwilli
 instagram_path: https://www.instagram.com/sanjwilli
