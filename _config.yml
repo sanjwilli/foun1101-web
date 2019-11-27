@@ -22,7 +22,7 @@ title: The Caribbean Today
 email: williamsanjay77@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Group description
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "foun1101-web" # the subpath of your site, e.g. /blog
 url: "https://sanjwilli.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_path: https://github.com/sanjwilli
